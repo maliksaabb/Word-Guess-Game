@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Hangman</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <script src="https://use.fontawesome.com/dce08cf54a.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+	  <div class="container">
+	    <div class="row">
+	      <h1 class="page-header"><kbd>HANGMAN - NFL STYLE</kbd></h1>
+	    </div>
+
+	    <div class="row" id="mainGameSpace">
+	     <div class="col-md-6 text-center">
+	      <strong><h1 id="userGameSpace"></h1></strong>
+	      </div>
+
+	      <div class="col-md-6 text-center">
+	        <h2><kbd>Letters Already Guessed: &nbsp; <span id="usedLettersWrong"></kbd></span></h2>
+	      </div>
+	    </div>
+
+	    <div class="row">
+	      <h2 class="col-md-12 text-center"><kbd>Number of Guesses Remaining: &nbsp;<span id="triesMessage">5</kbd></span></h2>
+	    </div>
+
+	    <div class="row">
+	    <strong><h2 class="col-md-12 text-center" id="gameMessage"></h2></strong>
+	    </div>
+	  </div>
+	  	  
+	  <script src="assets/javascript/game.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.1/howler.core.min.js"></script>
+
+</body>
+</html>
