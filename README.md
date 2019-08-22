@@ -1,2 +1,2 @@
-# Word-Guess-Game
-Javascript Assignment! HW#3
+Word-Guess-Game
+ HomeWork#3

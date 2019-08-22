@@ -1,8 +1,9 @@
 body {
-    background-image: url("https://splitcoverage.files.wordpress.com/2012/06/test21.jpg");
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/66/World_Map_Grayscale.png");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: center;
     font-family: 'Source Code Pro', monospace;
+    
   }
   
   h1, h2, h3, h4, {
@@ -13,8 +14,8 @@ body {
     padding: 50px;
   }
   
-  //.fa {
-  //  color: #fff;
+  .fa {
+   color: #fff;
   }
   
   a,
