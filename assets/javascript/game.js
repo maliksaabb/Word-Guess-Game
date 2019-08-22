@@ -1,4 +1,4 @@
-var wordBank = ["Usa", "China", "Russia", "Pakistan", "Brazil", "Portugal", "Japan", "France", "Norway", "Lebanon", "Canada", "Mexico"],
+var wordBank = ["usa", "china", "russia", "pakistan", "brazil", "portugal", "japan", "france", "norway", "lebanon", "canada", "mexico"],
     arrLength = wordBank.length;
 
 
