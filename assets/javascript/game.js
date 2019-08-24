@@ -2,10 +2,10 @@ var wordBank = ["usa", "china", "russia", "pakistan", "brazil", "portugal", "jap
     arrLength = wordBank.length;
 
 
-var winnerMessage = "Congrats, you win!",
-    loserMessage = "Sorry, out of tries. Press any key to try again.",
+var winnerMessage = "CONGRATS,YOU WIN!",
+    loserMessage = "Sorry, out of tries. Press any key to restart.",
     letterAlreadyPicked = "Sorry, that letter was already used.",
-    letterNotExist = "Sorry, that letter does not exist in the word.";
+    letterNotExist = "Sorry, letter does not exist.";
 
 
 var targetGameMessage = document.getElementById('gameMessage'),
